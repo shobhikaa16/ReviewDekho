@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box; /* height and width should add under the border*/
+}
+
+.firstNav{
+    height:60px;
+    background-color: rgb(45, 232, 232);
+    color: aliceblue;
+    display:flex;
+    align-items: center;
+    
+}
