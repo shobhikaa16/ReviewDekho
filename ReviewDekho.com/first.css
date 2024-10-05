@@ -9,6 +9,27 @@
     background-color: rgb(45, 232, 232);
     color: aliceblue;
     display:flex;
-    align-items: center;
+    align-items: center;    
+}
+#icon{
+    height: 5px;
     
+}
+#login{
+    margin-left: 70vw;
+}
+#buisness{
+    margin-left: 75vw;
+}
+#write{
+    margin-left: 65vw;
+
+}
+#category{
+    margin-left: 60vw;
+
+}
+#blog{
+    margin-left: 60vw;
+
 }
