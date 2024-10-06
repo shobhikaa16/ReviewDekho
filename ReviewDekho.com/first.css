@@ -6,7 +6,7 @@
 
 .firstNav{
     height:60px;
-    background-color: rgb(45, 232, 232);
+    background-color: #22577A;
     color: aliceblue;
     display:flex;
     align-items: center;
@@ -50,7 +50,7 @@
 
 }
 .mainSearch {
-    background-color: #fbeab4;
+    background-color: #C7F9CC;
     height: 400px;
     margin-top: 20px;
     padding-top: 20px;
@@ -77,11 +77,20 @@
     justify-content: center;
 }
 
-.Options p{
+.Options a{
     padding-left: 20px;
     padding-right: 25px;
+    color: black;
 }
 .op{
     display: flex;
+    padding: 5px 10px; /* Adjust padding */
+
+}
+.op i, .op a {
+    margin: 0; /* Removes default margin */
+    vertical-align: middle; /* Aligns the icons and text */
+    padding-right: 2px;
+    padding-left:0px;
 
 }
