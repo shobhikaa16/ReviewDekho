@@ -9,27 +9,79 @@
     background-color: rgb(45, 232, 232);
     color: aliceblue;
     display:flex;
-    align-items: center;    
-}
-#icon{
-    height: 5px;
+    align-items: center;
     
 }
-#login{
-    margin-left: 70vw;
-}
-#buisness{
-    margin-left: 75vw;
-}
 #write{
-    margin-left: 65vw;
+    margin-left: 50vw;
+    text-decoration: none;
+}
+.content a{
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    text-decoration: none;
 
 }
-#category{
-    margin-left: 60vw;
+#icon img{
+    height:50px ;
+    width: 50px;
+    margin-left: 10px;
+}
+#icon{
+    display: flex;
+}
+#icon h4{
+    padding-top: 19px;
+}
+.content input[type="button"]{
+    background-color: #f48647; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    border-radius: 20px; /* Rounded corners */
 
 }
-#blog{
-    margin-left: 60vw;
+.content input[type="button"]:hover{
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-style: oblique;
+
+}
+.mainSearch {
+    background-color: #fbeab4;
+    height: 400px;
+    margin-top: 20px;
+    padding-top: 20px;
+    
+}
+.mainSearch h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.mainSearch h5{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+
+}
+.Options{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.Options p{
+    padding-left: 20px;
+    padding-right: 25px;
+}
+.op{
+    display: flex;
 
 }
