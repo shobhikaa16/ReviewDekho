@@ -27,12 +27,14 @@
     height:50px ;
     width: 50px;
     margin-left: 10px;
+    padding-left: 10px;
 }
 #icon{
     display: flex;
 }
 #icon h4{
     padding-top: 19px;
+    margin-right: 5px;
 }
 .content input[type="button"]{
     background-color: #f48647; /* Green background */
